@@ -1,0 +1,182 @@
+[1605626228.517][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 4527
+[1605626228.518][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605626229.536][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\luann\\IdeaProjects\\portaldecompraspublicas\\build\\downloads\\1605626226343_5428_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\luann\\IdeaProjects\\portaldecompraspublicas\\build\\downloads\\1605626226343_5428_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605626229.539][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\luann\\IdeaProjects\\portaldecompraspublicas\\build\\downloads\\1605626226343_5428_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605626229.547][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605626229.549][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1605626229.549][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\luann\AppData\Local\Temp\scoped_dir13668_593579496" data:,
+[1605626233.325][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605626235.330][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1605626237.375][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\luann\\AppData\\Local\\Temp\\scoped_dir13668_593579496"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55454"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "3b2143150dca7b1bc2aef35b06fbd7a8"
+}
+[1605626237.483][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1605626237.483][INFO]: Waiting for pending navigations...
+[1605626237.485][INFO]: Done waiting for pending navigations. Status: ok
+[1605626237.615][INFO]: Waiting for pending navigations...
+[1605626237.615][INFO]: Done waiting for pending navigations. Status: ok
+[1605626237.615][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1605626237.620][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605626237.620][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE SetTimeouts
+[1605626237.629][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000/login"
+}
+[1605626237.629][INFO]: Waiting for pending navigations...
+[1605626237.630][INFO]: Done waiting for pending navigations. Status: ok
+[1605626237.689][INFO]: Waiting for pending navigations...
+[1605626239.545][INFO]: Done waiting for pending navigations. Status: ok
+[1605626239.545][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE Navigate
+[1605626239.556][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND GetTitle {
+
+}
+[1605626239.556][INFO]: Waiting for pending navigations...
+[1605626239.557][INFO]: Done waiting for pending navigations. Status: ok
+[1605626239.560][INFO]: Waiting for pending navigations...
+[1605626239.561][INFO]: Done waiting for pending navigations. Status: ok
+[1605626239.561][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE GetTitle "Ninja+"
+[1605626239.781][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] COMMAND Quit {
+
+}
+[1605626239.920][INFO]: [3b2143150dca7b1bc2aef35b06fbd7a8] RESPONSE Quit

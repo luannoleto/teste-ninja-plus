@@ -1,0 +1,1 @@
+{"uuid":"b9ea9cc4-42fe-473c-a75e-d4aaa8f99200","name":"Default Suite","children":["593bb462-4a14-48f7-a44f-0b0a28cd7371"],"befores":[{"name":"resetarFilmesCadastrados","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1606836548405,"stop":1606836548881}],"afters":[],"links":[],"start":1606836548359,"stop":1606836686907}

@@ -1,0 +1,26 @@
+1605623771102	geckodriver	INFO	Listening on 127.0.0.1:46871
+1605623772063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\luann\\AppData\\Local\\Temp\\rust_mozprofilem2CzGC"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605623776418	Marionette	INFO	Listening on port 54402
+1605623776811	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605623777480	Marionette	INFO	Stopped listening on port 54402
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 9268, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://grJe/modulesa/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AvdadSocnrMiapnta ger is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resourcee:r/r/gre/modules/AddonManager.jsm :: instaolrl:BuiltinAddon :: line 2550\"  data: no]" 
+rceosnousorlce://gre/modules/Asey.necrSrhourt:d o"Cwon.jsm,uld not  loadl engiine wikipnediae@ s5e5a4r:c hu.nmcoazuight lexcleption: 21475a00036.org: [
+JavaScript eErrorx:c erpetsioource:n/./gr.e./mo d\ule"sA/AsdydncoSnhMuatndaown.jsm, lineg 55e4r: u nicsaught  exncoeptti on:i n21475i0t0036
+iJaavaSclripitz ererdor\:" re s ournce://gre/moduless/result: \"0xc1f30AsyncShutdow0n0.js1m , l(ineN 55S4_:E RuncauRgOht Re_xceNpOtioTn: 21475_0I0036
+NJIavaSTcIriptA LeIrror: rZeEsouDr)c\e": //g re/modulleos/AcsynactShutidoonwn.jsm, l:i ne 554\:" JuSnca ufghtr aexcmeeption :: 21:4 750r0036
+JaevsourcaScreipt: /e/rror: rgesorurcee/://mgore/dmuodullees/sA/syncSAhdutddoown.njMsm,a line 554:n augncaueghtr .excjesptimon: 21475 0:003:6 
+installBuiltinAddon :: line 2550\"  data: no]"
+console.error: "Could not load engine mercadolivre@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2550\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 426: Error: OS.File has been shut down. Rejecting post to stat
